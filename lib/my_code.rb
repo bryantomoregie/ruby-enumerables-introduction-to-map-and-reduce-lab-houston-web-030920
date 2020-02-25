@@ -44,7 +44,7 @@ end
 
 def reduce_to_all_true(source_array)
 source_array.each do |item|
-  if item 
+  if item #IS TRUTHY 
 return true 
 end
 end 
