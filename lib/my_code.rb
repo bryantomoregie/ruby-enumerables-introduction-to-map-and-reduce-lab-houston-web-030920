@@ -47,7 +47,7 @@ source_array.each do |item|
   if item == false 
     return false 
 end  
-
+end 
 end 
 
 
