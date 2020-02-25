@@ -52,8 +52,8 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.each do |item|
-    if item == true 
-      return true 
+    if item != true 
+      return false 
     end
   end
 end 
